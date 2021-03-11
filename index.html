@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="app.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class="nav-bar">
+      <div class="container flex">
+        <div>
+          <h1 id="logo">Social Media Dashboard</h1> 
+          <p id="totalFollowers">Total Followers: 23,004</p>
+        </div>
+        <nav>
+          <h3 id="mode">Dark Mode</h3>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </nav>
+      </div>
+    </div>
+
+    <section class="header">
+      <div class="container grid">
+        <div class="card-dark facebook">
+          <div class="flex" id="social">
+            <img src="./images/icon-facebook.svg" alt="">
+            <p class="user">@nathanf</p>
+          </div>
+          <h1 class="followers">1987</h1>
+          <p class="follow">Followers</p>
+          <div class="flex">
+            <img src="./images/icon-up.svg" alt="">
+            <p class="increment">12 Today</p>
+          </div>
+        </div>
+        <div class="card-dark twitter">
+          <div class="flex" id="social">
+            <img src="./images/icon-twitter.svg" alt="">
+            <p class="user">@nathanf</p>
+          </div>
+          <h1 class="followers">1044</h1>
+          <p class="follow">Followers</p>
+          <div class="flex">
+            <img src="./images/icon-up.svg" alt="">
+            <p class="increment">99 Today</p>
+          </div>
+        </div>
+        <div class="card-dark wrapper">
+          <div class="flex" id="social">
+            <img src="./images/icon-instagram.svg" alt="">
+            <p class="user">@realnathanf</p>
+          </div>
+          <h1 class="followers">11k</h1>
+          <p class="follow">Followers</p>
+          <div class="flex">
+            <img src="./images/icon-up.svg" alt="">
+            <p class="increment">1099 Today</p>
+          </div>
+        </div>
+        <div class="card-dark youtube">
+          <div class="flex" id="social">
+            <img src="./images/icon-youtube.svg" alt="">
+            <p class="user">Nathan F.</p>
+          </div>
+          <h1 class="followers">8239</h1>
+          <p class="follow">Subscribers</p>
+          <div class="flex">
+            <img src="./images/icon-down.svg" alt="">
+            <p class="decrement">144 Today</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="overview">
+      <div class="container">
+        <h1 class="overviewTitle">Overview - Today</h1>
+        <div class="grid">
+          <div class="card-dark">
+              <div class="flex overview-title">
+                <p class="stats">Page Views</p>
+                <img src="./images/icon-facebook.svg" alt="">
+              </div>
+              <div class="flex">
+                <h3 class="overviews">87</h3>
+                <div class="flex">
+                  <img src="./images/icon-up.svg" alt="">
+                  <p class="increment">3%</p>
+                </div>
+              </div>
+          </div>
+          <div class="card-dark">
+            <div class="flex overview-title">
+              <p class="stats">Likes</p>
+              <img src="./images/icon-facebook.svg" alt="">
+            </div>
+            <div class="flex">
+              <h3 class="overviews">52</h3>
+              <div class="flex">
+                <img src="./images/icon-down.svg" alt="">
+                <p class="decrement">2%</p>
+              </div>
+            </div>
+        </div>
+        <div class="card-dark">
+          <div class="flex overview-title">
+            <p class="stats">Likes</p>
+            <img src="./images/icon-instagram.svg" alt="">
+          </div>
+          <div class="flex">
+            <h3 class="overviews">5462</h3>
+            <div class="flex">
+              <img src="./images/icon-up.svg" alt="">
+              <p class="increment">2257%</p>
+            </div>
+          </div>
+      </div>
+      <div class="card-dark">
+        <div class="flex overview-title">
+          <p class="stats">Profile Views</p>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="flex">
+          <h3 class="overviews">52k</h3>
+          <div class="flex">
+            <img src="./images/icon-up.svg" alt="">
+            <p class="increment">1375%</p>
+          </div>
+        </div>
+    </div>
+    <div class="card-dark">
+      <div class="flex overview-title">
+        <p class="stats">Retweets</p>
+        <img src="./images/icon-twitter.svg" alt="">
+      </div>
+      <div class="flex">
+        <h3 class="overviews">117</h3>
+        <div class="flex">
+          <img src="./images/icon-up.svg" alt="">
+          <p class="increment">303%</p>
+        </div>
+      </div>
+  </div>
+  <div class="card-dark">
+    <div class="flex overview-title">
+      <p class="stats">Likes</p>
+      <img src="./images/icon-twitter.svg" alt="">
+    </div>
+    <div class="flex">
+      <h3 class="overviews">507</h3>
+      <div class="flex">
+        <img src="./images/icon-up.svg" alt="">
+        <p class="increment">553%</p>
+      </div>
+    </div>
+</div>
+<div class="card-dark">
+  <div class="flex overview-title">
+    <p class="stats">Likes</p>
+    <img src="./images/icon-youtube.svg" alt="">
+  </div>
+  <div class="flex">
+    <h3 class="overviews">107</h3>
+    <div class="flex">
+      <img src="./images/icon-down.svg" alt="">
+      <p class="decrement">19%</p>
+    </div>
+  </div>
+</div>
+<div class="card-dark">
+  <div class="flex overview-title">
+    <p class="stats">Total Views</p>
+    <img src="./images/icon-youtube.svg" alt="">
+  </div>
+  <div class="flex">
+    <h3 class="overviews">1407</h3>
+    <div class="flex">
+      <img src="./images/icon-down.svg" alt="">
+      <p class="decrement">12%</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Demilade Olorode</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
